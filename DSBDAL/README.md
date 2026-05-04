@@ -1,9 +1,43 @@
 # Data Science & Big Data Analytics Laboratory
 
-To install Jupyter Notebook on Ubuntu using pip, run:
+## 🐍 Python Setup (Windows)
 
-`pip install notebook`
+### 1. Check if Python is already installed
 
-To launch Jupyter Notebook, run:
+Open **Command Prompt** and run:
 
- `jupyter notebook`
+```bash
+python --version
+pip --version
+```
+
+If you see version numbers, Python is already installed ✅
+If not, follow the installation steps below.
+
+---
+
+### 2. Install Python (if not installed)
+
+* Go to: https://www.python.org/downloads/
+* Download the latest version for Windows
+* Run the installer
+* ✅ **IMPORTANT:** Check **“Add Python to PATH”**
+* Click **Install Now**
+
+---
+
+### 3. Install Jupyter Notebook
+
+```bash
+pip install notebook
+```
+
+---
+
+### 🚀 Run Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+This will open Jupyter Notebook in your default browser.
